@@ -1,6 +1,8 @@
 # TFL.show — Landing Page
 
-Landing estática para **TFL.show — The Fans Legend**. Desplegada en Vercel (`prompt-forge.com`).
+Landing estática para **TFL.show — The Fans Legend**. Desplegada en Vercel.
+
+**URL de producción:** https://www.promt-forge.com (también https://promt-forge.com)
 
 ## Contenido
 
