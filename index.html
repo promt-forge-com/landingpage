@@ -320,6 +320,8 @@ nav {
 .challenge-desc { font-size:12px; color:var(--text-muted); line-height:1.5; }
 
 /* ── MODELS ── */
+/* Temporarily hide model photos/grid — remove .models-hidden to restore */
+.models-section.models-hidden .models-grid { display: none; }
 .models-grid {
   display: grid; grid-template-columns: repeat(3,1fr);
   gap: 3px; border-radius: 4px; overflow: hidden;
@@ -817,7 +819,7 @@ footer { border-top:1px solid var(--border); padding:24px 36px; display:flex; al
 <div class="divider"></div>
 
 <!-- MODELS -->
-<section class="section">
+<section class="section models-section models-hidden">
   <div class="section-header">
     <div class="section-eyebrow">The Cast</div>
     <h2 class="section-title">6 Models. One Unforgettable Month.</h2>
